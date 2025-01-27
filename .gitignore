@@ -1,7 +1,18 @@
 /venv
-/test
-/train
-/validation
-/bag_files
-/augmentation
-/Для ролика
+# /test
+# /train
+# /validation
+# /bag_files
+# /augmentation
+
+# Исключаем временные файлы DVC
+.dvctmp/
+.dvctmp.*
+.cache/
+
+# Файлы для обучения
+*.jpg
+*.png
+*.jpeg
+*.tiff
+*.tif
